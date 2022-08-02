@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-	 <head>
+ <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/style.min.css">
 	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> -->
-	<title>Aplicant</title>
+	<title>Registration Candidate</title>
 </head>
-	<body>
-		<main class="wrapper max-width">
-			<header class="header">
+
+<body>
+    <main class="wrapper max-width">
+        <header class="header">
     <div class="container">
         <div class="header-inner">
             <a href="index.html">
@@ -39,61 +40,60 @@
         </div>
     </div>
 </header>
-            <section class="aplicant">
-                <div class="container">
-                    <div class="aplicant-inner">
-                        <form class="form">
-                            <div class="ulazni">
-                                <span class="ulazni-title block-name">Улазни</span>
-                                <div class="ulazni-form">
-                                    <div class="ulazni-box">
-                                        <div class="ulazni-box__text">E-mail
-                                            <span class="red-star">*</span>
-                                        </div>
-                                        <input type="email" class="email input">
+        <section class="registrationCandidate">
+            <div class="container">
+                <div class="registrationCandidate-inner">
+                    <h2 class="registrationCandidate-title block-name">Регистрација кандидата</h2>
+                    <form class="registrationCandidate-form">
+                        <div class="registrationCandidate-form-inner">
+                            <div class="registrationCandidate-row">
+                                <div class="registrationCandidate-box">
+                                    <div class="registrationCandidate-box__name input-name">
+                                        Име
+                                        <span class="red-star">*</span>
                                     </div>
-                                    <div class="ulazni-box">
-                                        <div class="ulazni-box__text">Лозинка
-                                            <span class="red-star">*</span>
-                                        </div>
-                                        <input type="password" class="password input">
-                                    </div>
-                                    <div class="checkbox">
-                                        <input class="checkbox__input" type="checkbox" id="checkbox_4">
-                                        <label class="checkbox__label" for="checkbox_4">Да ме се сећају</label>
-                                    </div>
-                                    <div class="ulazni-buttons">
-                                        <button class="ulazni-button button">Да дођу у</button>
-                                        <a href="" class="ulazni-lozinka">Заборавили сте лозинку?</a>
-                                    </div>
+                                    <input type="text" class="registrationCandidate-box__input input" placeholder="Унесите своје име">
                                 </div>
-                                <div class="ulazni-text">Пријавите се путем друштвене мреже</div>
-                                <div class="ulazni-media">
-                                    <a href="https://www.google.com/" class="ulazni-media__link">
-                                        <img src="img/google.png" alt="image">
-                                    </a>
-                                    <a href="https://www.facebook.com/" class="ulazni-media__link">
-                                        <img src="img/facebook-blue.png" alt="image">
-                                    </a>
+                                <div class="registrationCandidate-box">
+                                    <div class="registrationCandidate-box__name input-name">
+                                        Презиме
+                                        <span class="red-star">*</span>
+                                    </div>
+                                    <input type="text" class="registrationCandidate-box__input input" placeholder="Унесите презиме">
                                 </div>
                             </div>
-                            <div class="aplicant-box">
-                                <div class="aplicant-block">
-                                    <span class="aplicant-title block-name">Апликанти</span>
-                                    <div class="aplicant-text text">Регистрацијом, кандидати могу да постављају биографије и одговарају на слободна радна места која их занимају.</div>
-                                    <a href="" class="aplicant-button button2">Регистрација кандидата</a>
+                            <div class="registrationCandidate-row">
+                                <div class="registrationCandidate-box">
+                                    <div class="registrationCandidate-box__name input-name">
+                                        E-mail
+                                        <span class="red-star">*</span>
+                                    </div>
+                                    <input type="email" class="registrationCandidate-box__input input" placeholder="Унесите e-mail">
                                 </div>
-                                <div class="aplicant-block">
-                                    <span class="aplicant-title block-name">За послодавце</span>
-                                    <div class="aplicant-text text">Регистрацијом послодавци могу да објаве своја слободна радна места.</div>
-                                    <a href="" class="aplicant-button button2">Регистрација послодавца</a>
+                                <div class="registrationCandidate-box">
+                                    <div class="registrationCandidate-box__name input-name">
+                                        Лозинка
+                                        <span class="red-star">*</span>
+                                    </div>
+                                    <div class="lozinka">
+                                        <input type="password" class="registrationCandidate-box__input input" placeholder="Унесите лозинку (од 4 до 16 знакова)">
+                                        <i class="fa-solid fa-eye-slash eyeHide"></i>
+                                        <!-- <i class="fa-solid fa-eye eyeVisible"></i> --> <!--Show password-->
+                                    </div>
                                 </div>
                             </div>
-                        </form>
-                    </div>
+                            <div class="registrationCandidate-hr"></div>
+                            <div class="checkbox">
+                                <input class="checkbox__input" type="checkbox" id="checkbox_1">
+                                <label class="checkbox__label" for="checkbox_1">Да ме се сећају</label>
+                            </div>
+                            <button class="registrationCandidate-button button2">Регистровати</button>
+                        </div>
+                    </form>
                 </div>
-            </section>
-			<footer class="footer">
+            </div>
+        </section>
+        <footer class="footer">
     <div class="container">
         <div class="footer-inner">
             <div class="footer-top">
@@ -183,7 +183,8 @@
         </div>
     </div>
 </footer>
-		</main>
-		<script src="js/app.min.js"></script>
-	</body>
+    </main>
+    <script src="js/app.min.js"></script>
+</body>
+
 </html>
