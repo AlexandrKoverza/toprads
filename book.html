@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-	 <head>
+ <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/style.min.css">
 	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> -->
-	<title>Home</title>
+	<title>Book</title>
 </head>
-	<body>
-		<main class="wrapper max-width">
-			<header class="header">
+
+<body>
+    <main class="wrapper max-width">
+        <header class="header">
     <div class="container">
         <div class="header-inner">
             <a href="index.html">
@@ -39,33 +40,50 @@
         </div>
     </div>
 </header>
-			<section class="intro">
-				<div class="container">
-					<div class="intro-inner">
-						<h2 class="intro-title">Лако је пронаћи посао!</h2>
-						<div class="intro-text">Тражење посла и запослени у Србији!</div>
-						<div class="intro-search search">
-							<input type="text" class="search-input" placeholder="Найти вакансию, например: Менеджер">
-							<div class="search-select select">
-								<div class="select-wrapper">
-									<button class="select-main">Вакансии</button>
-									<div class="select-menu">
-										<button class="select-menu__button" data-value="choose 1">Вакансии</button>
-										<button class="select-menu__button" data-value="choose 2">Резюме</button>
-									</div>
-								</div>
-							</div>
-							<button class="search-button button">Искать</button>
-						</div>
-						<div class="intro-buttons">
-							<button class="intro-button button2">Пошаљите своју биографију</button>
-							<button class="intro-button button2">Објавите посао</button>
-						</div>
-					</div>
-				</div>
-				<img src="img/intro.png" alt="image" class="intro-img">
-			</section>
-			<footer class="footer">
+        <section class="book">
+            <div class="container">
+                <div class="book-inner">
+                    <h2 class="book-title block-name">Књига примедби и сугестија</h2>
+                    <p class="book-text">Поделите своје мишљење о порталу, оставите предлог или пријавите проблем који имате. Ваше повратне информације помажу нам да побољшамо сајт, чинећи га практичнијим и функционалнијим.</p>
+                    <form class="book-form">
+                        <div class="book-form-inner">
+                            <div class="ulazni-box">
+                                <div class="ulazni-box__text">Твоје име 
+                                    <span class="red-star">*</span>
+                                </div>
+                                <input type="text" class="input" placeholder="Унесите своје име">
+                            </div>
+                            <div class="ulazni-box">
+                                <div class="ulazni-box__text">Е-маил за контакт са вама
+                                    <span class="red-star">*</span>
+                                </div>
+                                <input type="email" class="input" placeholder="Унесите e-mail">
+                            </div>
+                            <div class="ulazni-box">
+                                <div class="ulazni-box__text">Текст поруке
+                                    <span class="red-star">*</span>
+                                </div>
+                                <input type="text" class="input">
+                            </div>
+                            <button class="book-add">+ Додајте везу</button>
+                            <button class="book-add">+ Приложите снимак екрана</button>
+                            <div class="book-code">
+                                <img src="img/code.png" alt="image" class="book-code__img">
+                                <div class="ulazni-box">
+                                    <div class="ulazni-box__text">Код с картинки
+                                        <span class="red-star">*</span>
+                                    </div>
+                                    <input type="number" class="input">
+                                </div>
+                            </div>
+                            <button class="book-add">+ Ажурирај код</button>
+                            <button class="book-button button2">Пошаљи</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
     <div class="container">
         <div class="footer-inner">
             <div class="footer-top">
@@ -155,8 +173,8 @@
         </div>
     </div>
 </footer>
-		</main>
-		<script src="js/app.min.js"></script>
-	</body>
-</html>
+    </main>
+    <script src="js/app.min.js"></script>
+</body>
 
+</html>
