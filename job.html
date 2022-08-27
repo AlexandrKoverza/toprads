@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> -->
+	<title>Job</title>
+</head>
+
+<body>
+    <main class="wrapper max-width">
+        <header class="header">
+    <div class="container">
+        <div class="header-inner">
+            <a href="index.html">
+                <div class="header-logo">
+                    <img src="img/logo.png" alt="Image" class="header-logo__img">
+                    <div class="header-icon">
+                        <img src="img/logo-small.png" alt="image">
+                    </div>
+                </div>
+            </a>
+            <nav class="header-nav">
+                <ul class="header-list">
+                    <a href="" class="header-list__item"><li >Именик послова</li></a> 
+                    <a href="" class="header-list__item"><li >Каталог животописа</li></a> 
+                    <a href="" class="header-list__item"><li >Тарифе и услуге</li></a> 
+                </ul>
+            </nav>
+            <div class="header-buttons">
+                <button class="header-button button">Пријава и регистрација</button>
+                <div class="burger-wrapper">
+    <a href="" class="burger">
+        <span></span>
+    </a>
+</div>
+            </div>
+        </div>
+    </div>
+</header>
+        <section class="job">
+            <div class="container">
+                <div class="job-inner">
+                    <span class="job-title block-name">Стварање посла</span>
+                    <div class="job-basic">
+                        <span class="job-basic__title">Основни подаци</span>
+                        <div class="job-basic__box">
+                            <div class="job-basic__left">
+                                <div class="job-block">
+                                    <div class="job-block__text">Назив посла
+                                        <span class="red-star">*</span>
+                                    </div>
+                                    <input type="text" class="email input job-basic__input">
+                                </div>
+                                <div class="job-plata">
+                                    <div class="job-block__text">Плата
+                                        <span class="red-star">*</span>
+                                    </div>
+                                    <span class="job-plata__text text">от</span>
+                                    <input type="number" class="email input">
+                                    <span class="job-plata__text text">до</span>
+                                    <input type="number" class="email input">
+                                    <span class="job-plata__text text">динар</span>
+                                </div>
+                            </div>
+                            <div class="job-basic__right">
+                                <p class="job-basic__info-text text">
+                                    Назив посла
+                                    <br>
+                                    <br>
+                                    Дозвољена је само небитна промена посла. Упражњено место поново улази у упражњено место
+                                </p>
+                            </div>
+                        </div>
+                        <div class="job-basic__bottom job-basic__box">
+                            <div class="job-basic__left">
+                                <div class="job-comment">
+                                    <p class="job-block__text">Коментар о плати</p>
+                                    <input type="text" class="email input job-basic__input">
+                                </div>
+                            </div>
+                            <div class="job-basic__right">
+                                <p class="job-basic__info-text text">
+                                    Коментари о платама
+                                    <br>
+                                    <br>
+                                    Можете навести од чега се састоји ниво понуђене плате
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="job-place">
+                        <span class="job-basic__title">Место рада</span>
+                        <div class="job-place__row job-basic__box">
+                            <div class="job-basic__left">
+                                <div class="job-block__text">Место рада
+                                    <span class="red-star">*</span>
+                                </div>
+                                <div class="job-place__select select">
+                                    <div class="select-wrapper">
+                                        <button class="select-main">Выбор 1</button>
+                                        <div class="select-menu">
+                                            <button class="select-menu__button" data-value="choose 1">Выбор 1</button>
+                                            <button class="select-menu__button" data-value="choose 2">Выбор 2</button>
+                                            <button class="select-menu__button" data-value="choose 3">Выбор 3</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="job-basic__right">
+                                <div class="job-place__text text">
+                                    Место рада
+                                    <br>
+                                    <br>
+                                    Наведите адресу на којој је посао отворен. 
+                                    <br> Ова адреса се приказује на страници за посао
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="job-candidate">
+                        <span class="job-basic__title">Захтеви кандидата</span>
+                        <div class="job-candidate__block">
+                            <div class="job-block__text">Жељено радно <br> искуство
+                                <span class="red-star">*</span>
+                            </div>
+                            <div class="job-candidate__checkboxes">
+                                <div class="checkbox">
+                                    <input class="checkbox__input" type="checkbox" id="checkbox_10">
+                                    <label class="checkbox__label" for="checkbox_10">Можете без радног искуства</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input class="checkbox__input" type="checkbox" id="checkbox_11">
+                                    <label class="checkbox__label" for="checkbox_11">До 1 године</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input class="checkbox__input" type="checkbox" id="checkbox_12">
+                                    <label class="checkbox__label" for="checkbox_12">1-3 године</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input class="checkbox__input" type="checkbox" id="checkbox_13">
+                                    <label class="checkbox__label" for="checkbox_13">3-5 година</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input class="checkbox__input" type="checkbox" id="checkbox_14">
+                                    <label class="checkbox__label" for="checkbox_14">Више од 5 година</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="job-candidate__block">
+                            <div class="job-block__text">Ниво <br> образовања
+                                <span class="red-star">*</span>
+                            </div>
+                            <div class="job-candidate__checkboxes">
+                                <div class="checkbox">
+                                    <input class="checkbox__input" type="checkbox" id="checkbox_15">
+                                    <label class="checkbox__label" for="checkbox_15">Можете без радног искуства</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input class="checkbox__input" type="checkbox" id="checkbox_16">
+                                    <label class="checkbox__label" for="checkbox_16">До 1 године</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input class="checkbox__input" type="checkbox" id="checkbox_17">
+                                    <label class="checkbox__label" for="checkbox_17">1-3 године</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input class="checkbox__input" type="checkbox" id="checkbox_18">
+                                    <label class="checkbox__label" for="checkbox_18">3-5 година</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input class="checkbox__input" type="checkbox" id="checkbox_19">
+                                    <label class="checkbox__label" for="checkbox_19">Више од 5 година</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input class="checkbox__input" type="checkbox" id="checkbox_20">
+                                    <label class="checkbox__label" for="checkbox_20">Више од 5 година</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input class="checkbox__input" type="checkbox" id="checkbox_21">
+                                    <label class="checkbox__label" for="checkbox_21">Више од 5 година</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input class="checkbox__input" type="checkbox" id="checkbox_22">
+                                    <label class="checkbox__label" for="checkbox_22">Више од 5 година</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="job-candidate__bottom job-basic__box">
+                            <div class="job-basic__left">
+                                <p class="job-block__text">Кључне вештине</p>
+                                <input type="text" class="email input job-basic__input">
+                            </div>
+                            <div class="job-basic__right">
+                                <p class="job-candidate__bottom-text">
+                                    Кључне вештине
+                                    <br>
+                                    <br>
+                                    Наведите које вештине потенцијални кандидат треба да поседује
+                                </p>
+                            </div>
+                        </div>
+                        <div class="job-candidate__selects">
+                            <p class="job-block__text">Познавање језика</p>
+                            <div class="job-candidate__select select">
+                                <div class="select-wrapper">
+                                    <button class="select-main">Изаберите језик</button>
+                                    <div class="select-menu">
+                                        <button class="select-menu__button" data-value="choose 13">Выбор 1</button>
+                                        <button class="select-menu__button" data-value="choose 14">Выбор 2</button>
+                                        <button class="select-menu__button" data-value="choose 15">Выбор 3</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="job-candidate__select select">
+                                <div class="select-wrapper">
+                                    <button class="select-main">Ниво</button>
+                                    <div class="select-menu">
+                                        <button class="select-menu__button" data-value="choose 1">Выбор 1</button>
+                                        <button class="select-menu__button" data-value="choose 2">Выбор 2</button>
+                                        <button class="select-menu__button" data-value="choose 3">Выбор 3</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+    <div class="container">
+        <div class="footer-inner">
+            <div class="footer-top">
+                <ul class="footer-top__ul footer-ul">
+                    <span class="footer-ul__title">За послодавце</span>
+                    <a href="" class="footer-ul__link">
+                        <li>Тарифе и услуге</li>
+                    </a>
+                    <a href="" class="footer-ul__link">
+                        <li>Услови коришћења</li>
+                    </a>
+                    <a href="" class="footer-ul__link">
+                        <li>Јавни уговор за пружање услуга</li>
+                    </a>
+                    <a href="" class="footer-ul__link">
+                        <li>Оглашавање на веб страници</li>
+                    </a>
+                </ul>
+                <ul class="footer-top__ul footer-ul">
+                    <span class="footer-ul__title">Апликанти</span>
+                    <a href="" class="footer-ul__link">
+                        <li>Уговор о порталу</li>
+                    </a>
+                    <a href="" class="footer-ul__link">
+                        <li>Уговор о пружању услуга</li>
+                    </a>
+                    <a href="" class="footer-ul__link">
+                        <li>ЦВ пласман</li>
+                    </a>
+                    <a href="" class="footer-ul__link">
+                        <li>Блог портала Toprads.rs</li>
+                    </a>
+                </ul>
+                <ul class="footer-top__ul footer-ul">
+                    <span class="footer-ul__title">Правила и документи</span>
+                    <a href="" class="footer-ul__link">
+                        <li>Политика обраде личних података</li>
+                    </a>
+                    <a href="" class="footer-ul__link">
+                        <li>Уредба о обради података о личности</li>
+                    </a>
+                    <a href="" class="footer-ul__link">
+                        <li>Правила о приватности</li>
+                    </a>
+                    <a href="" class="footer-ul__link">
+                        <li>Правила пласмана</li>
+                    </a>
+                </ul>
+                <ul class="footer-top__ul footer-ul">
+                    <span class="footer-ul__title">Помоћ и повратне информације</span>
+                    <a href="" class="footer-ul__link">
+                        <li>Често постављана питања</li>
+                    </a>
+                    <a href="" class="footer-ul__link">
+                        <li>Књига коментара и сугестија</li>
+                    </a>
+                    <a href="" class="footer-ul__link">
+                        <li>Контакти</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom__text">
+                    Тоprads.rs © 2022—2022, Тоprads.rs  доо
+                    УНП 193189058
+                    Република Србија, 220114, Минск, авенија независности 117а, соба. бр. 9.
+                    Радно време предузећа: пон.-чет. 09.00-18.00, пет. 9:00-16:45, затворено дана - суб., нед.
+                    Сајт је отворен 24/7. Е-маил ДОО «Тоprads.rs»
+                    едитор@праца.би
+                </div>
+                <div class="footer-bottom__box">
+                    <div class="footer-box__media footer-media">
+                        <div class="footer-media__box">
+                            <a href="" class="footer-media__link">
+                                <img src="img/facebook.png" alt="image" class="footer-media__img">
+                            </a>
+                            <a href="" class="footer-media__link">
+                                <img src="img/telegram.png" alt="image" class="footer-media__img">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer-box__text">
+                        За сва питања о сајту пишите на модератор@Тоprads.rs
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    </main>
+    <script src="js/app.min.js"></script>
+</body>
+
+</html>
