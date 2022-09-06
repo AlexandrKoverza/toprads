@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> -->
+	<title>Search Resume</title>
+</head>
+
+<body>
+    <main class="wrapper max-width">
+        <header class="header">
+    <div class="container">
+        <div class="header-inner">
+            <a href="index.html">
+                <div class="header-logo">
+                    <img src="img/logo.png" alt="Image" class="header-logo__img">
+                    <div class="header-icon">
+                        <img src="img/logo-small.png" alt="image">
+                    </div>
+                </div>
+            </a>
+            <nav class="header-nav">
+                <ul class="header-list">
+                    <a href="" class="header-list__item"><li >Именик послова</li></a> 
+                    <a href="" class="header-list__item"><li >Каталог животописа</li></a> 
+                    <a href="" class="header-list__item"><li >Тарифе и услуге</li></a> 
+                </ul>
+            </nav>
+            <div class="header-buttons">
+                <button class="header-button button">Пријава и регистрација</button>
+                <div class="burger-wrapper">
+    <a href="" class="burger">
+        <span></span>
+    </a>
+</div>
+            </div>
+        </div>
+    </div>
+</header>
+        <section class="searchJob">
+            <div class="container">
+                <div class="searchJob-inner">
+                    <div class="searchJob-row">
+                        <div class="search-left">
+                            <div class="search-filters">
+                                <span class="search-filters__title">Прикажи послове</span>
+                                <div class="searchSelect select">
+                                    <div class="select-wrapper">
+                                        <button class="select-main">Свих времена</button>
+                                        <div class="select-menu">
+                                            <button class="select-menu__button" data-value="choose 1">свих
+                                                времена</button>
+                                            <button class="select-menu__button" data-value="choose 2">за један
+                                                дан</button>
+                                            <button class="select-menu__button" data-value="choose 3">за 3
+                                                дана</button>
+                                            <button class="select-menu__button" data-value="choose 4">за недељу
+                                                дана</button>
+                                            <button class="select-menu__button" data-value="choose 5">за месец
+                                                дана</button>
+                                            <button class="select-menu__button" data-value="choose 6">за 3
+                                                месеца</button>
+                                            <button class="select-menu__button" data-value="choose 7">za šest
+                                                meseci</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="search-content">
+                                <div class="search-currentFilters">
+                                    <span class="search-currentFilters__title">Текущие фильтры</span>
+                                    <button class="search-currentFilters__button">Очистить</button>
+                                </div>
+                                <div class="search-resultFilters">
+                                    <div class="resultFilters-block">
+                                        <span class="resultFilters-block__title">Плата</span>
+                                        <div class="resultFilters-block__text">от 200 дин.
+                                            <span>1</span>
+                                        </div>
+                                        <div class="resultFilters-block__text">от 700 дин.
+                                            <span>1</span>
+                                        </div>
+                                        <div class="resultFilters-block__text">от 900 дин.
+                                            <span>1</span>
+                                        </div>
+                                        <button>Није казана</button>
+                                    </div>
+                                    <div class="resultFilters-block">
+                                        <span class="resultFilters-block__title">Распоред рада</span>
+                                        <div class="resultFilters-block__text">Фиксно / пуно радно време 
+                                        </div>
+                                        <div class="resultFilters-block__text">Флексибилан
+                                        </div>
+                                        <div class="resultFilters-block__text">Замена
+                                        </div>
+                                        <div class="resultFilters-block__text">Није наведено
+                                        </div>
+                                        <div class="resultFilters-block__text">Метода
+                                        </div>
+                                    </div>
+                                    <div class="resultFilters-block">
+                                        <span class="resultFilters-block__title">Запошљавање</span>
+                                        <div class="resultFilters-block__text">Укупно 
+                                        </div>
+                                        <div class="resultFilters-block__text">Делимична
+                                        </div>
+                                        <div class="resultFilters-block__text">Једнократни / Хонорарни Посао
+                                        </div>
+                                        <div class="resultFilters-block__text">Пројектни рад
+                                        </div>
+                                        <div class="resultFilters-block__text">Стажирање
+                                        </div>
+                                        <div class="resultFilters-block__text">Није наведено
+                                        </div>
+                                    </div>
+                                    <div class="resultFilters-block">
+                                        <span class="resultFilters-block__title">Природа посла</span>
+                                        <div class="resultFilters-block__text">На територији послодавца
+                                            <span>1</span>
+                                        </div>
+                                        <div class="resultFilters-block__text">Рад од куће / даљински рад
+                                            <span>1</span>
+                                        </div>
+                                        <div class="resultFilters-block__text">Путнички
+                                            <span>1</span>
+                                        </div>
+                                        <div class="resultFilters-block__text">Није наведено
+                                            <span>1</span>
+                                        </div>
+                                    </div>
+                                    <div class="resultFilters-block">
+                                        <span class="resultFilters-block__title">Ниво образовања</span>
+                                        <div class="resultFilters-block__text">Просек и изнад
+                                            <span>1</span>
+                                        </div>
+                                        <div class="resultFilters-block__text">Професионално-технички и изнад 
+                                            <span>1</span>
+                                        </div>
+                                        <div class="resultFilters-block__text">Средње специјално образовање и изнад
+                                            <span>1</span>
+                                        </div>
+                                        <div class="resultFilters-block__text">Недовршени виши и изнад
+                                            <span>1</span>
+                                        </div>
+                                        <div class="resultFilters-block__text">Високо образовање и изнад
+                                            <span>1</span>
+                                        </div>
+                                        <div class="resultFilters-block__text">Мастер и изнад
+                                            <span>1</span>
+                                        </div>
+                                    </div>
+                                    <div class="resultFilters-block">
+                                        <span class="resultFilters-block__title">Радно искуство</span>
+                                        <div class="resultFilters-block__text">Са искуством и без искуства
+                                            <span>1</span>
+                                        </div>
+                                        <div class="resultFilters-block__text">Има искуства
+                                            <span>1</span>
+                                        </div>
+                                        <div class="resultFilters-block__text">Од 1 године
+                                            <span>1</span>
+                                        </div>
+                                        <div class="resultFilters-block__text">Од 2 године
+                                            <span>1</span>
+                                        </div>
+                                        <div class="resultFilters-block__text">Од 3 године
+                                            <span>1</span>
+                                        </div>
+                                        <div class="resultFilters-block__text">Од 4 године
+                                            <span>1</span>
+                                        </div>
+                                    </div>
+                                    <div class="resultFilters-block">
+                                        <span class="resultFilters-block__title">Пол</span>
+                                        <div class="resultFilters-block__text">Мушки
+                                            <span>1</span>
+                                        </div>
+                                        <div class="resultFilters-block__text">Женски 
+                                            <span>1</span>
+                                        </div>
+                                    </div>
+                                    <div class="resultFilters-block">
+                                        <span class="resultFilters-block__title">Старост</span>
+                                        <div class="resultFilters-block__text">До 18 година
+                                            <span>1</span>
+                                        </div>
+                                        <div class="resultFilters-block__text">До 25 година
+                                            <span>1</span>
+                                        </div>
+                                        <div class="resultFilters-block__text">До 30 година
+                                            <span>1</span>
+                                        </div>
+                                        <div class="resultFilters-block__text">До 40 година
+                                            <span>1</span>
+                                        </div>
+                                        <div class="resultFilters-block__text">До 50 година
+                                            <span>1</span>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="resultFilters-block">
+                                        <span class="resultFilters-block__title">Студент</span>
+                                        <div class="resultFilters-block__text">Нема
+                                            <span>1</span>
+                                        </div>
+                                        <div class="resultFilters-block__text">Да 
+                                            <span>1</span>
+                                        </div>
+                                        <div class="resultFilters-block__text">Није наведено 
+                                            <span>1</span>
+                                        </div>
+                                    </div>
+                                    <div class="resultFilters-block">
+                                        <span class="resultFilters-block__title">Град</span>
+                                        <div class="resultFilters-block__text">Београд
+                                            <span>1</span>
+                                        </div>
+                                        <div class="resultFilters-block__text">Город 2 
+                                            <span>1</span>
+                                        </div>
+                                        <div class="resultFilters-block__text">Город 3
+                                            <span>1</span>
+                                        </div>
+                                        <div class="resultFilters-block__text">Город 4
+                                            <span>1</span>
+                                        </div>
+                                        <div class="resultFilters-block__text">Город 5
+                                            <span>1</span>
+                                        </div>
+                                    </div>
+                                    <div class="resultFilters-block">
+                                        <span class="resultFilters-block__title">Језици</span>
+                                        <div class="resultFilters-block__text">Енглески
+                                            <span>1</span>
+                                        </div>
+                                        <div class="resultFilters-block__text">Српски
+                                            <span>1</span>
+                                        </div>
+                                        <div class="resultFilters-block__text">Белоруски
+                                            <span>1</span>
+                                        </div>
+                                        <div class="resultFilters-block__text">Немачки
+                                            <span>1</span>
+                                        </div>
+                                        <div class="resultFilters-block__text">Пољски
+                                            <span>1</span>
+                                        </div>
+                                        <button>Прикажи свих</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="search-right">
+                            <div class="search-description">
+                                <span class="search-description__title">Запошљавање: база резимеа запослених</span>
+                                <div class="search-description__text">Захтев је фиксиран на маркетер менаџер. Претрага маркетер менаџер је дао мање резултата</div>
+                            </div>
+                            <div class="search-find">
+                                <span class="search-find__result">Найдено: <span>256</span></span>
+                                <div class="search-sort">
+                                    <span class="search-sort__text">cортировать:</span>
+                                    <div class="searchSort select">
+                                        <div class="select-wrapper">
+                                            <button class="select-main">по дате обновления</button>
+                                            <div class="select-menu">
+                                                <button class="select-menu__button" data-value="choose 1">Выбор
+                                                    1</button>
+                                                <button class="select-menu__button" data-value="choose 2">Выбор
+                                                    2</button>
+                                                <button class="select-menu__button" data-value="choose 3">Выбор
+                                                    3</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="search-find__block">
+                                    <button class="search-find__button">Расширенный поиск</button>
+                                </div>
+                            </div>
+                            <div class="searchResume-results search-list">
+                                <div class="resume-item">
+                                    <div class="resume-item__top resume-top">
+                                        <div class="resume-top__block">
+                                            <div class="resume-top__box">
+                                                <div class="resume-warning">
+                                                    <img src="img/resume-fire.svg" alt="image" class="resume-warning__img">
+                                                    У потрази за послом:
+                                                </div>
+                                                <span class="resume-top__box-text">Выйдет в течение месяца</span>
+                                            </div>
+                                            <span class="resume-top__block-title">Интернет-макетолог</span>
+                                            <span class="resume-top__block-text">Специјалности: СЕО специјалиста, менаџер оглашавања, маркетер</span>
+                                            <span class="resume-top__block-money">1200-3500 динара. ruke na ruke.</span>
+                                            <span class="resume-top__block-time">42 године, Београд</span>
+                                            <span class="resume-top__block-date">вчера</span>
+                                        </div>
+                                        <img src="img/resume-avatar.png" alt="image" class="resume-top__img">
+                                    </div>
+                                    <hr>
+                                    <div class="resume-item__content resume-content">
+                                            <div class="resume-content__block">
+                                                <img src="img/resume-education.svg" alt="image" class="resume-content__img">
+                                                Образовање:
+                                                <span>Високо образовање</span>
+                                            </div>
+                                            <div class="resume-content__block">
+                                                <img src="img/resume-education2.svg" alt="image" class="resume-content__img">
+                                                Искуство:
+                                                <span>5 и више година</span>
+                                            </div>
+                                            <div class="resume-item__text">Пресељење: Немогуће</div>
+                                            <div class="resume-item__text2">Ambasadore.lokalni rad: ИП Јазавац самостални предузетник, децембар 2014-н. в.</div>
+                                            <div class="resume-item__text">Зачињености:: СЕО специјалиста, менаџер оглашавања, маркетер</div>
+                                    </div>
+                                </div>
+                                <div class="resume-item">
+                                    <div class="resume-item__top resume-top">
+                                        <div class="resume-top__block">
+                                            <div class="resume-top__box">
+                                                <div class="resume-warning">
+                                                    <img src="img/resume-fire.svg" alt="image" class="resume-warning__img">
+                                                    У потрази за послом:
+                                                </div>
+                                                <span class="resume-top__box-text">Выйдет в течение месяца</span>
+                                            </div>
+                                            <span class="resume-top__block-title">Интернет-макетолог</span>
+                                            <span class="resume-top__block-text">Специјалности: СЕО специјалиста, менаџер оглашавања, маркетер</span>
+                                            <span class="resume-top__block-money">1200-3500 динара. ruke na ruke.</span>
+                                            <span class="resume-top__block-time">42 године, Београд</span>
+                                            <span class="resume-top__block-date">вчера</span>
+                                        </div>
+                                        <img src="img/resume-avatar.png" alt="image" class="resume-top__img">
+                                    </div>
+                                    <hr>
+                                    <div class="resume-item__content resume-content">
+                                            <div class="resume-content__block">
+                                                <img src="img/resume-education.svg" alt="image" class="resume-content__img">
+                                                Образовање:
+                                                <span>Високо образовање</span>
+                                            </div>
+                                            <div class="resume-content__block">
+                                                <img src="img/resume-education2.svg" alt="image" class="resume-content__img">
+                                                Искуство:
+                                                <span>5 и више година</span>
+                                            </div>
+                                            <div class="resume-item__text">Пресељење: Немогуће</div>
+                                            <div class="resume-item__text2">Ambasadore.lokalni rad: ИП Јазавац самостални предузетник, децембар 2014-н. в.</div>
+                                            <div class="resume-item__text">Зачињености:: СЕО специјалиста, менаџер оглашавања, маркетер</div>
+                                    </div>
+                                </div>
+                                <div class="resume-item">
+                                    <div class="resume-item__top resume-top">
+                                        <div class="resume-top__block">
+                                            <div class="resume-top__box">
+                                                <div class="resume-warning">
+                                                    <img src="img/resume-fire.svg" alt="image" class="resume-warning__img">
+                                                    У потрази за послом:
+                                                </div>
+                                                <span class="resume-top__box-text">Выйдет в течение месяца</span>
+                                            </div>
+                                            <span class="resume-top__block-title">Интернет-макетолог</span>
+                                            <span class="resume-top__block-text">Специјалности: СЕО специјалиста, менаџер оглашавања, маркетер</span>
+                                            <span class="resume-top__block-money">1200-3500 динара. ruke na ruke.</span>
+                                            <span class="resume-top__block-time">42 године, Београд</span>
+                                            <span class="resume-top__block-date">вчера</span>
+                                        </div>
+                                        <img src="img/resume-avatar.png" alt="image" class="resume-top__img">
+                                    </div>
+                                    <hr>
+                                    <div class="resume-item__content resume-content">
+                                            <div class="resume-content__block">
+                                                <img src="img/resume-education.svg" alt="image" class="resume-content__img">
+                                                Образовање:
+                                                <span>Високо образовање</span>
+                                            </div>
+                                            <div class="resume-content__block">
+                                                <img src="img/resume-education2.svg" alt="image" class="resume-content__img">
+                                                Искуство:
+                                                <span>5 и више година</span>
+                                            </div>
+                                            <div class="resume-item__text">Пресељење: Немогуће</div>
+                                            <div class="resume-item__text2">Ambasadore.lokalni rad: ИП Јазавац самостални предузетник, децембар 2014-н. в.</div>
+                                            <div class="resume-item__text">Зачињености:: СЕО специјалиста, менаџер оглашавања, маркетер</div>
+                                    </div>
+                                </div>
+                                <div class="resume-item">
+                                    <div class="resume-item__top resume-top">
+                                        <div class="resume-top__block">
+                                            <div class="resume-top__box">
+                                                <div class="resume-warning">
+                                                    <img src="img/resume-fire.svg" alt="image" class="resume-warning__img">
+                                                    У потрази за послом:
+                                                </div>
+                                                <span class="resume-top__box-text">Выйдет в течение месяца</span>
+                                            </div>
+                                            <span class="resume-top__block-title">Интернет-макетолог</span>
+                                            <span class="resume-top__block-text">Специјалности: СЕО специјалиста, менаџер оглашавања, маркетер</span>
+                                            <span class="resume-top__block-money">1200-3500 динара. ruke na ruke.</span>
+                                            <span class="resume-top__block-time">42 године, Београд</span>
+                                            <span class="resume-top__block-date">вчера</span>
+                                        </div>
+                                        <img src="img/resume-avatar.png" alt="image" class="resume-top__img">
+                                    </div>
+                                    <hr>
+                                    <div class="resume-item__content resume-content">
+                                            <div class="resume-content__block">
+                                                <img src="img/resume-education.svg" alt="image" class="resume-content__img">
+                                                Образовање:
+                                                <span>Високо образовање</span>
+                                            </div>
+                                            <div class="resume-content__block">
+                                                <img src="img/resume-education2.svg" alt="image" class="resume-content__img">
+                                                Искуство:
+                                                <span>5 и више година</span>
+                                            </div>
+                                            <div class="resume-item__text">Пресељење: Немогуће</div>
+                                            <div class="resume-item__text2">Ambasadore.lokalni rad: ИП Јазавац самостални предузетник, децембар 2014-н. в.</div>
+                                            <div class="resume-item__text">Зачињености:: СЕО специјалиста, менаџер оглашавања, маркетер</div>
+                                    </div>
+                                </div>
+                                <div class="resume-item">
+                                    <div class="resume-item__top resume-top">
+                                        <div class="resume-top__block">
+                                            <div class="resume-top__box">
+                                                <div class="resume-warning">
+                                                    <img src="img/resume-fire.svg" alt="image" class="resume-warning__img">
+                                                    У потрази за послом:
+                                                </div>
+                                                <span class="resume-top__box-text">Выйдет в течение месяца</span>
+                                            </div>
+                                            <span class="resume-top__block-title">Интернет-макетолог</span>
+                                            <span class="resume-top__block-text">Специјалности: СЕО специјалиста, менаџер оглашавања, маркетер</span>
+                                            <span class="resume-top__block-money">1200-3500 динара. ruke na ruke.</span>
+                                            <span class="resume-top__block-time">42 године, Београд</span>
+                                            <span class="resume-top__block-date">вчера</span>
+                                        </div>
+                                        <img src="img/resume-avatar.png" alt="image" class="resume-top__img">
+                                    </div>
+                                    <hr>
+                                    <div class="resume-item__content resume-content">
+                                            <div class="resume-content__block">
+                                                <img src="img/resume-education.svg" alt="image" class="resume-content__img">
+                                                Образовање:
+                                                <span>Високо образовање</span>
+                                            </div>
+                                            <div class="resume-content__block">
+                                                <img src="img/resume-education2.svg" alt="image" class="resume-content__img">
+                                                Искуство:
+                                                <span>5 и више година</span>
+                                            </div>
+                                            <div class="resume-item__text">Пресељење: Немогуће</div>
+                                            <div class="resume-item__text2">Ambasadore.lokalni rad: ИП Јазавац самостални предузетник, децембар 2014-н. в.</div>
+                                            <div class="resume-item__text">Зачињености:: СЕО специјалиста, менаџер оглашавања, маркетер</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+    <div class="container">
+        <div class="footer-inner">
+            <div class="footer-top">
+                <ul class="footer-top__ul footer-ul">
+                    <span class="footer-ul__title">За послодавце</span>
+                    <a href="" class="footer-ul__link">
+                        <li>Тарифе и услуге</li>
+                    </a>
+                    <a href="" class="footer-ul__link">
+                        <li>Услови коришћења</li>
+                    </a>
+                    <a href="" class="footer-ul__link">
+                        <li>Јавни уговор за пружање услуга</li>
+                    </a>
+                    <a href="" class="footer-ul__link">
+                        <li>Оглашавање на веб страници</li>
+                    </a>
+                </ul>
+                <ul class="footer-top__ul footer-ul">
+                    <span class="footer-ul__title">Апликанти</span>
+                    <a href="" class="footer-ul__link">
+                        <li>Уговор о порталу</li>
+                    </a>
+                    <a href="" class="footer-ul__link">
+                        <li>Уговор о пружању услуга</li>
+                    </a>
+                    <a href="" class="footer-ul__link">
+                        <li>ЦВ пласман</li>
+                    </a>
+                    <a href="" class="footer-ul__link">
+                        <li>Блог портала Toprads.rs</li>
+                    </a>
+                </ul>
+                <ul class="footer-top__ul footer-ul">
+                    <span class="footer-ul__title">Правила и документи</span>
+                    <a href="" class="footer-ul__link">
+                        <li>Политика обраде личних података</li>
+                    </a>
+                    <a href="" class="footer-ul__link">
+                        <li>Уредба о обради података о личности</li>
+                    </a>
+                    <a href="" class="footer-ul__link">
+                        <li>Правила о приватности</li>
+                    </a>
+                    <a href="" class="footer-ul__link">
+                        <li>Правила пласмана</li>
+                    </a>
+                </ul>
+                <ul class="footer-top__ul footer-ul">
+                    <span class="footer-ul__title">Помоћ и повратне информације</span>
+                    <a href="" class="footer-ul__link">
+                        <li>Често постављана питања</li>
+                    </a>
+                    <a href="" class="footer-ul__link">
+                        <li>Књига коментара и сугестија</li>
+                    </a>
+                    <a href="" class="footer-ul__link">
+                        <li>Контакти</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom__text">
+                    Тоprads.rs © 2022—2022, Тоprads.rs  доо
+                    УНП 193189058
+                    Република Србија, 220114, Минск, авенија независности 117а, соба. бр. 9.
+                    Радно време предузећа: пон.-чет. 09.00-18.00, пет. 9:00-16:45, затворено дана - суб., нед.
+                    Сајт је отворен 24/7. Е-маил ДОО «Тоprads.rs»
+                    едитор@праца.би
+                </div>
+                <div class="footer-bottom__box">
+                    <div class="footer-box__media footer-media">
+                        <div class="footer-media__box">
+                            <a href="" class="footer-media__link">
+                                <img src="img/facebook.png" alt="image" class="footer-media__img">
+                            </a>
+                            <a href="" class="footer-media__link">
+                                <img src="img/telegram.png" alt="image" class="footer-media__img">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer-box__text">
+                        За сва питања о сајту пишите на модератор@Тоprads.rs
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    </main>
+    <script src="js/app.min.js"></script>
+</body>
+
+</html>
