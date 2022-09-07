@@ -9894,7 +9894,7 @@ readers do not read off random characters that represent icons */
 /********************************/
 .intro {
   width: 100%;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   position: relative;
 }
 
@@ -9998,7 +9998,7 @@ readers do not read off random characters that represent icons */
   width: fit-content;
   height: 68px;
   padding: 13px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 17px 17px rgba(149, 138, 138, 0.2);
   border-radius: 50px;
 }
@@ -10041,7 +10041,7 @@ readers do not read off random characters that represent icons */
   font-size: 16px;
   line-height: 20px;
   letter-spacing: -0.02em;
-  color: #918A8A;
+  color: #918a8a;
 }
 @media (max-width: 767px) {
   .search-input {
@@ -10069,8 +10069,8 @@ readers do not read off random characters that represent icons */
 }
 
 .search-select .select-wrapper {
-  border-right: 1px solid #8D8383;
-  border-left: 1px solid #8D8383;
+  border-right: 1px solid #8d8383;
+  border-left: 1px solid #8d8383;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -10081,8 +10081,8 @@ readers do not read off random characters that represent icons */
     padding-right: 0px;
     border-right: none;
     border-left: none;
-    border-top: 1px solid #8D8383;
-    border-bottom: 1px solid #8D8383;
+    border-top: 1px solid #8d8383;
+    border-bottom: 1px solid #8d8383;
   }
 }
 
@@ -10098,7 +10098,7 @@ readers do not read off random characters that represent icons */
   font-size: 16px;
   line-height: 22px;
   letter-spacing: -0.02em;
-  color: #918A8A;
+  color: #918a8a;
 }
 @media (max-width: 480px) {
   .search-select .select-main {
@@ -10124,7 +10124,7 @@ readers do not read off random characters that represent icons */
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   box-shadow: 0px 4px 4px rgba(186, 186, 186, 0.25);
   margin-top: 10px;
   max-height: 200px;
@@ -10150,7 +10150,7 @@ readers do not read off random characters that represent icons */
   font-size: 14px;
   line-height: 19px;
   letter-spacing: -0.02em;
-  color: #438AC9;
+  color: #438ac9;
   text-align: left;
 }
 
@@ -10211,7 +10211,7 @@ readers do not read off random characters that represent icons */
   font-family: WorkSans;
   width: 258px;
   height: 58px;
-  border: 1px solid #57B89B;
+  border: 1px solid #57b89b;
   margin-right: 35px;
 }
 @media (max-width: 767px) {
@@ -10230,7 +10230,7 @@ readers do not read off random characters that represent icons */
 .intro-button:last-child {
   width: 172px;
   height: 58px;
-  border: 1px solid #438AC9;
+  border: 1px solid #438ac9;
 }
 @media (max-width: 767px) {
   .intro-button:last-child {
@@ -10269,7 +10269,7 @@ readers do not read off random characters that represent icons */
 
 .aplicant {
   width: 100%;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .aplicant-inner {
@@ -10330,7 +10330,7 @@ readers do not read off random characters that represent icons */
 .ulazni-form {
   margin-top: 12px;
   padding: 20px;
-  border: 1px solid #BEBEBE;
+  border: 1px solid #bebebe;
   border-radius: 20px;
 }
 @media (max-width: 575px) {
@@ -10447,7 +10447,7 @@ readers do not read off random characters that represent icons */
 }
 
 .aplicant-button {
-  border: 1px solid #438AC9;
+  border: 1px solid #438ac9;
   border-radius: 50px;
   margin-top: 10px;
   width: 240px;
@@ -10512,7 +10512,7 @@ readers do not read off random characters that represent icons */
   font-size: 16px;
   line-height: 22px;
   letter-spacing: -0.02em;
-  color: #7C7C7C;
+  color: #7c7c7c;
 }
 @media (max-width: 767px) {
   .registration-block__text {
@@ -10523,7 +10523,7 @@ readers do not read off random characters that represent icons */
 .registration-button {
   width: 239px;
   height: 46px;
-  border: 1px solid #57B89B;
+  border: 1px solid #57b89b;
 }
 @media (max-width: 767px) {
   .registration-button {
@@ -10538,7 +10538,7 @@ readers do not read off random characters that represent icons */
   font-size: 14px;
   line-height: 19px;
   letter-spacing: -0.02em;
-  color: #7C7C7C;
+  color: #7c7c7c;
 }
 .registration-bottom__text span {
   color: #438AC9;
@@ -10550,7 +10550,7 @@ readers do not read off random characters that represent icons */
 
 .contacts {
   width: 100%;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .contacts-inner {
@@ -10596,7 +10596,7 @@ readers do not read off random characters that represent icons */
   line-height: 22px;
   letter-spacing: -0.02em;
   margin-top: 5px;
-  color: #3D3D3D;
+  color: #3d3d3d;
 }
 @media (max-width: 575px) {
   .contacts-text {
@@ -10676,7 +10676,7 @@ readers do not read off random characters that represent icons */
   font-size: 16px;
   line-height: 22px;
   letter-spacing: -0.02em;
-  color: #0C0C0C;
+  color: #0c0c0c;
 }
 .contacts-bottom__email {
   display: block;
@@ -10747,7 +10747,7 @@ readers do not read off random characters that represent icons */
 
 .questions {
   width: 100%;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .questions-inner {
@@ -10778,7 +10778,7 @@ readers do not read off random characters that represent icons */
   margin-right: 20px;
   width: 234px;
   height: 46px;
-  border: 1px solid #57B89B;
+  border: 1px solid #57b89b;
 }
 @media (max-width: 575px) {
   .questions-top__button:first-child {
@@ -10789,7 +10789,7 @@ readers do not read off random characters that represent icons */
 .questions-top__button:last-child {
   width: 162px;
   height: 46px;
-  border: 1px solid #438AC9;
+  border: 1px solid #438ac9;
 }
 @media (max-width: 575px) {
   .questions-top {
@@ -10861,7 +10861,7 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  color: #438AC9;
+  color: #438ac9;
   width: 100%;
   cursor: pointer;
   margin-top: 10px;
@@ -10880,7 +10880,7 @@ readers do not read off random characters that represent icons */
 }
 .questions-ul li:hover {
   color: #797979;
-  background-color: #F2EEEE;
+  background-color: #f2eeee;
 }
 
 .questions-spoilers {
@@ -10963,7 +10963,7 @@ readers do not read off random characters that represent icons */
 .questions-spoiler .spoiler-content {
   width: 100%;
   color: #797979;
-  background-color: #F2EEEE;
+  background-color: #f2eeee;
   max-height: 0px;
   overflow: hidden;
   transition: all 150ms ease-in-out;
@@ -10975,7 +10975,7 @@ readers do not read off random characters that represent icons */
 
 .registrationCandidate {
   width: 100%;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .registrationCandidate-inner {
@@ -11129,7 +11129,7 @@ readers do not read off random characters that represent icons */
 .registrationCandidate-hr {
   width: 100%;
   height: 1px;
-  background-color: #D5D5D5;
+  background-color: #d5d5d5;
   margin-top: 60px;
   margin-bottom: 12px;
 }
@@ -11143,7 +11143,7 @@ readers do not read off random characters that represent icons */
   margin-top: 54px;
   width: 180px;
   height: 46px;
-  border: 1px solid #57B89B;
+  border: 1px solid #57b89b;
 }
 @media (max-width: 767px) {
   .registrationCandidate-button {
@@ -11172,7 +11172,7 @@ readers do not read off random characters that represent icons */
 
 .registrationCandidate-select .select-wrapper {
   background: #fff;
-  border: 0.5px solid #BEBEBE;
+  border: 0.5px solid #bebebe;
   border-radius: 10px;
   padding-left: 10px;
   padding-right: 10px;
@@ -11182,8 +11182,8 @@ readers do not read off random characters that represent icons */
     width: 100%;
     border-right: none;
     border-left: none;
-    border-top: 1px solid #8D8383;
-    border-bottom: 1px solid #8D8383;
+    border-top: 1px solid #8d8383;
+    border-bottom: 1px solid #8d8383;
   }
 }
 
@@ -11220,7 +11220,7 @@ readers do not read off random characters that represent icons */
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   box-shadow: 0px 4px 4px rgba(186, 186, 186, 0.25);
   margin-top: 10px;
   max-height: 200px;
@@ -11246,7 +11246,7 @@ readers do not read off random characters that represent icons */
   font-size: 14px;
   line-height: 19px;
   letter-spacing: -0.02em;
-  color: #438AC9;
+  color: #438ac9;
   text-align: left;
 }
 
@@ -11344,7 +11344,7 @@ readers do not read off random characters that represent icons */
 
 .book {
   width: 100%;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .book-inner {
@@ -11481,7 +11481,7 @@ readers do not read off random characters that represent icons */
 
 .tariffs {
   width: 100%;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .tariffs-inner {
@@ -11572,14 +11572,14 @@ readers do not read off random characters that represent icons */
 
 .tariffs-tabs .tabs-buttons {
   display: flex;
-  border-bottom: 3px solid #B9B2B2;
+  border-bottom: 3px solid #b9b2b2;
 }
 @media (max-width: 767px) {
   .tariffs-tabs .tabs-buttons {
     width: 100%;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    border: 3px solid #B9B2B2;
+    border: 3px solid #b9b2b2;
     border-radius: 10px;
     margin-bottom: 10px;
   }
@@ -11598,7 +11598,7 @@ readers do not read off random characters that represent icons */
   height: 50px;
   width: 200px;
   margin-bottom: -3px;
-  border-bottom: 3px solid #B9B2B2;
+  border-bottom: 3px solid #b9b2b2;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -11654,7 +11654,7 @@ readers do not read off random characters that represent icons */
 
 .tariffs-tabs .tabs-button.active {
   color: #438AC9;
-  border-bottom: 3px solid #438AC9;
+  border-bottom: 3px solid #438ac9;
 }
 
 .tariffs-tabs .tabs-contents {
@@ -11702,7 +11702,7 @@ readers do not read off random characters that represent icons */
   width: 154px;
   height: 36px;
   background: #fff;
-  border: 1px solid #B9B2B2;
+  border: 1px solid #b9b2b2;
   cursor: pointer;
   text-align: left;
   position: relative;
@@ -11729,7 +11729,7 @@ readers do not read off random characters that represent icons */
   display: flex;
   flex-direction: column;
   background: #fff;
-  border: 1px solid #B9B2B2;
+  border: 1px solid #b9b2b2;
   margin-top: 10px;
   max-height: 200px;
   position: absolute;
@@ -11818,12 +11818,12 @@ readers do not read off random characters that represent icons */
   line-height: 22px;
   letter-spacing: -0.02em;
   color: #242424;
-  border: 1px solid #918A8A;
+  border: 1px solid #918a8a;
   border-top: none;
   border-bottom: none;
 }
 .planova-block__content {
-  border: 1px solid #918A8A;
+  border: 1px solid #918a8a;
   border-bottom: none;
   text-align: center;
   background-color: #fff;
@@ -11851,8 +11851,8 @@ readers do not read off random characters that represent icons */
   height: 100px;
   text-align: center;
   padding-top: 18px;
-  background-color: #FAFAFA;
-  border: 1px solid #918A8A;
+  background-color: #fafafa;
+  border: 1px solid #918a8a;
   border-top: none;
   border-radius: 0px 0px 10px 10px;
 }
@@ -11871,7 +11871,7 @@ readers do not read off random characters that represent icons */
   letter-spacing: -0.02em;
   color: #438AC9;
   cursor: pointer;
-  border: 1px solid #1976D2;
+  border: 1px solid #1976d2;
   border-radius: 50px;
   background-color: transparent;
   width: 160px;
@@ -11880,23 +11880,23 @@ readers do not read off random characters that represent icons */
 }
 
 .skyblue {
-  background: #1EBBD2;
+  background: #1ebbd2;
 }
 
 .blue {
-  background: #3F5FE5;
+  background: #3f5fe5;
 }
 
 .violet {
-  background: #A161AB;
+  background: #a161ab;
 }
 
 .orange {
-  background: #FEA110;
+  background: #fea110;
 }
 
 .tomato {
-  background: #FD5E2C;
+  background: #fd5e2c;
 }
 
 .tariffs-bucket {
@@ -11937,7 +11937,7 @@ readers do not read off random characters that represent icons */
   margin-top: 0;
 }
 .tariffs-bucket__content-description {
-  background: #E5EFF8;
+  background: #e5eff8;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -12088,7 +12088,7 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
   font-size: 14px;
   line-height: 100%;
-  color: #8F8F8F;
+  color: #8f8f8f;
   margin-top: 10px;
 }
 .bucket-bottom__text span {
@@ -12105,10 +12105,10 @@ readers do not read off random characters that represent icons */
   font-size: 14px;
   line-height: 100%;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   min-width: 32px;
   height: 32px;
-  background: #57B89B;
+  background: #57b89b;
   border-radius: 500px;
   display: flex;
   align-items: center;
@@ -12120,7 +12120,7 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
   font-size: 10px;
   line-height: 85%;
-  color: #4DB6AC;
+  color: #4db6ac;
 }
 .tariffs-percent__text {
   font-style: italic;
@@ -12142,7 +12142,7 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
   font-size: 12px;
   line-height: 100%;
-  color: #8F8F8F;
+  color: #8f8f8f;
 }
 
 .fa-xmark {
@@ -12216,10 +12216,10 @@ readers do not read off random characters that represent icons */
   cursor: pointer;
   line-height: 14px;
   letter-spacing: -0.02em;
-  color: #8F8F8F;
+  color: #8f8f8f;
   width: 140px;
   height: 34px;
-  border: 1px solid #8F8F8F;
+  border: 1px solid #8f8f8f;
   border-radius: 50px;
   display: flex;
   align-items: center;
@@ -12286,10 +12286,10 @@ readers do not read off random characters that represent icons */
   line-height: 14px;
   text-align: center;
   letter-spacing: -0.02em;
-  color: #8F8F8F;
+  color: #8f8f8f;
   width: 140px;
   height: 34px;
-  border: 1px solid #8F8F8F;
+  border: 1px solid #8f8f8f;
   border-radius: 50px;
   display: flex;
   align-items: center;
@@ -12320,7 +12320,7 @@ readers do not read off random characters that represent icons */
   width: 62px;
   height: 36px;
   background: #fff;
-  border: 1px solid #B9B2B2;
+  border: 1px solid #b9b2b2;
   cursor: pointer;
   text-align: left;
   position: relative;
@@ -12347,7 +12347,7 @@ readers do not read off random characters that represent icons */
   display: flex;
   flex-direction: column;
   background: #fff;
-  border: 1px solid #B9B2B2;
+  border: 1px solid #b9b2b2;
   margin-top: 10px;
   max-height: 200px;
   position: absolute;
@@ -12422,13 +12422,13 @@ readers do not read off random characters that represent icons */
   line-height: 14px;
   color: #fff;
   padding: 5px 10px;
-  background: #A161AB;
+  background: #a161ab;
   border-radius: 2px;
 }
 .packages-content__block-template {
   width: 269px;
   height: 86px;
-  border: 1px solid #D9D9D9;
+  border: 1px solid #d9d9d9;
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -12588,13 +12588,13 @@ readers do not read off random characters that represent icons */
   font-size: 10px;
   line-height: 14px;
   letter-spacing: -0.02em;
-  color: #438AC9;
+  color: #438ac9;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 110px;
   height: 34px;
-  border: 1px solid #438AC9;
+  border: 1px solid #438ac9;
   border-radius: 50px;
   margin-left: auto;
   background-color: transparent;
@@ -12648,7 +12648,7 @@ readers do not read off random characters that represent icons */
   display: flex;
   flex-direction: column;
   background: #fff;
-  border: 1px solid #B9B2B2;
+  border: 1px solid #b9b2b2;
   margin-top: 10px;
   max-height: 200px;
   position: absolute;
@@ -12686,7 +12686,7 @@ readers do not read off random characters that represent icons */
 
 .promotion {
   width: 100%;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .promotion-inner {
@@ -12747,7 +12747,7 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  color: #918A8A;
+  color: #918a8a;
   padding: 28px 20px;
 }
 @media (max-width: 767px) {
@@ -12758,7 +12758,7 @@ readers do not read off random characters that represent icons */
 .promotion-contacts__content {
   width: 260px;
   margin-top: 15px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 4px 10px rgba(192, 190, 190, 0.25);
   border-radius: 10px;
   padding: 26px 20px;
@@ -12908,7 +12908,7 @@ readers do not read off random characters that represent icons */
 
 .createResume {
   width: 100%;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .createResume-inner {
@@ -13049,7 +13049,7 @@ readers do not read off random characters that represent icons */
   line-height: 25px;
   text-align: center;
   letter-spacing: -0.02em;
-  color: #7E7E7E;
+  color: #7e7e7e;
 }
 @media (max-width: 767px) {
   .createResume-end__text {
@@ -13071,14 +13071,14 @@ readers do not read off random characters that represent icons */
   line-height: 25px;
   text-align: center;
   letter-spacing: -0.02em;
-  color: #DAAD0F;
+  color: #daad0f;
   width: 188px;
   height: 63px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-left: 35px;
-  border: 1px solid #DAAD0F;
+  border: 1px solid #daad0f;
   border-radius: 50px;
 }
 @media (max-width: 1080px) {
@@ -13101,7 +13101,7 @@ readers do not read off random characters that represent icons */
   display: flex;
   align-items: center;
   padding: 26px 16px;
-  background: #F9E3E3;
+  background: #f9e3e3;
   border-radius: 10px;
 }
 @media (max-width: 767px) {
@@ -13155,7 +13155,7 @@ readers do not read off random characters that represent icons */
   color: #438AC9;
   width: 192px;
   height: 56px;
-  background: #FFFFFF;
+  background: #ffffff;
   border: 1px solid #438AC9;
   border-radius: 56px;
   display: flex;
@@ -13185,7 +13185,7 @@ readers do not read off random characters that represent icons */
 .createResume-success {
   margin-top: 20px;
   padding: 19px 16px;
-  background: #E3F9E5;
+  background: #e3f9e5;
   border-radius: 10px;
   font-style: normal;
   font-weight: 400;
@@ -13223,7 +13223,7 @@ readers do not read off random characters that represent icons */
 .createResume-left {
   min-width: 360px;
   min-height: 430px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 8px 14px rgba(112, 112, 112, 0.25);
   border-radius: 10px;
   padding: 20px;
@@ -13267,7 +13267,7 @@ readers do not read off random characters that represent icons */
   font-size: 16px;
   line-height: 22px;
   letter-spacing: -0.02em;
-  color: #908A8A;
+  color: #908a8a;
   margin-top: 13px;
 }
 @media (max-width: 575px) {
@@ -13340,7 +13340,7 @@ readers do not read off random characters that represent icons */
   font-size: 16px;
   line-height: 22px;
   letter-spacing: -0.02em;
-  color: #57B89B;
+  color: #57b89b;
 }
 @media (max-width: 575px) {
   .createResume-box__text {
@@ -13351,8 +13351,8 @@ readers do not read off random characters that represent icons */
 .createResume-box__circle {
   width: 16px;
   height: 16px;
-  border: 3px solid #F8EEEE;
-  background-color: #F8EEEE;
+  border: 3px solid #f8eeee;
+  background-color: #f8eeee;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -13364,13 +13364,13 @@ readers do not read off random characters that represent icons */
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: linear-gradient(0deg, #438AC9, #438AC9), linear-gradient(0deg, #438AC9, #438AC9), linear-gradient(0deg, #438AC9, #438AC9), #438AC9;
+  background: linear-gradient(0deg, #438ac9, #438ac9), linear-gradient(0deg, #438ac9, #438ac9), linear-gradient(0deg, #438ac9, #438ac9), #438ac9;
 }
 
 .createResume-right {
   width: 100%;
   min-height: 430px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 8px 14px rgba(112, 112, 112, 0.25);
   border-radius: 10px;
   padding: 28px 31px;
@@ -13468,13 +13468,13 @@ readers do not read off random characters that represent icons */
   font-size: 18px;
   line-height: 25px;
   letter-spacing: -0.02em;
-  color: #438AC9;
+  color: #438ac9;
   width: 203px;
   height: 57px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #438AC9;
+  border: 1px solid #438ac9;
   border-radius: 50px;
   margin: 0 auto;
   margin-top: 40px;
@@ -13512,10 +13512,10 @@ readers do not read off random characters that represent icons */
   font-size: 18px;
   line-height: 25px;
   letter-spacing: -0.02em;
-  color: #DAAD0F;
+  color: #daad0f;
   width: 165px;
   height: 63px;
-  border: 1px solid #DAAD0F;
+  border: 1px solid #daad0f;
   border-radius: 50px;
   display: flex;
   align-items: center;
@@ -13564,7 +13564,7 @@ readers do not read off random characters that represent icons */
   }
 }
 .createJob-left__box {
-  border: 1px solid #908A8A;
+  border: 1px solid #908a8a;
   border-radius: 4px;
   padding: 20px;
   width: 260px;
@@ -13584,7 +13584,7 @@ readers do not read off random characters that represent icons */
   line-height: 19px;
   text-align: center;
   letter-spacing: -0.02em;
-  color: #908A8A;
+  color: #908a8a;
 }
 .createJob-left__box-file {
   display: none;
@@ -13610,7 +13610,7 @@ readers do not read off random characters that represent icons */
   font-size: 14px;
   line-height: 19px;
   letter-spacing: -0.02em;
-  color: #908A8A;
+  color: #908a8a;
   margin-top: 36px;
   display: block;
 }
@@ -13626,7 +13626,7 @@ readers do not read off random characters that represent icons */
   font-size: 14px;
   line-height: 19px;
   letter-spacing: -0.02em;
-  color: #438AC9;
+  color: #438ac9;
   display: block;
 }
 @media (max-width: 575px) {
@@ -13649,7 +13649,7 @@ readers do not read off random characters that represent icons */
   font-size: 14px;
   line-height: 19px;
   letter-spacing: -0.02em;
-  color: #908A8A;
+  color: #908a8a;
   margin-top: 36px;
   display: block;
 }
@@ -13710,7 +13710,7 @@ readers do not read off random characters that represent icons */
   font-size: 14px;
   line-height: 19px;
   letter-spacing: -0.02em;
-  color: #438AC9;
+  color: #438ac9;
   background-color: transparent;
   cursor: pointer;
   width: fit-content;
@@ -13741,22 +13741,22 @@ readers do not read off random characters that represent icons */
   line-height: 19px;
   text-align: center;
   letter-spacing: -0.02em;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-right: 10px;
 }
 .createJob-package .premium {
-  background: #FEA110;
+  background: #fea110;
 }
 .createJob-package .standart {
   background: #438AC9;
 }
 .createJob-package .public {
-  background: #A161AB;
+  background: #a161ab;
 }
 .createJob-package .createJob-package__free {
   min-width: 100px;
   height: 40px;
-  border: 1px solid #908A8A;
+  border: 1px solid #908a8a;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -13816,7 +13816,7 @@ readers do not read off random characters that represent icons */
   margin-top: 20px;
   background-color: transparent;
   cursor: pointer;
-  border: 1px solid #438AC9;
+  border: 1px solid #438ac9;
   border-radius: 50px;
 }
 @media (max-width: 575px) {
@@ -13867,7 +13867,7 @@ readers do not read off random characters that represent icons */
 
 .job {
   width: 100%;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .job-inner {
@@ -13897,7 +13897,7 @@ readers do not read off random characters that represent icons */
   width: 100%;
   min-width: 360px;
   margin-top: 33px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 8px 8px 20px rgba(210, 209, 209, 0.25);
   border-radius: 20px;
   padding: 26px 37px;
@@ -14088,7 +14088,7 @@ readers do not read off random characters that represent icons */
   min-height: 300px;
   margin-top: 34px;
   padding: 30px 38px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 8px 8px 20px rgba(210, 209, 209, 0.25);
   border-radius: 20px;
 }
@@ -14156,8 +14156,8 @@ readers do not read off random characters that represent icons */
 .job-place .select-main {
   width: 100%;
   height: 40px;
-  background: #FFFFFF;
-  border: 0.5px solid #BEBEBE;
+  background: #ffffff;
+  border: 0.5px solid #bebebe;
   border-radius: 10px;
   cursor: pointer;
   text-align: left;
@@ -14229,7 +14229,7 @@ readers do not read off random characters that represent icons */
   margin-top: 32px;
   width: 100%;
   padding: 30px 43px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 20px;
 }
 @media (max-width: 767px) {
@@ -14345,7 +14345,7 @@ readers do not read off random characters that represent icons */
 
 .job-candidate__select .select-main {
   width: 100%;
-  border: 0.5px solid #BEBEBE;
+  border: 0.5px solid #bebebe;
   background-color: transparent;
   border-radius: 10px;
   height: 40px;
@@ -14417,7 +14417,7 @@ readers do not read off random characters that represent icons */
 
 .resume {
   width: 100%;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .resume-inner {
@@ -14446,7 +14446,7 @@ readers do not read off random characters that represent icons */
 .resume-block {
   width: 100%;
   padding: 46px 40px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 8px 8px 20px rgba(210, 209, 209, 0.25);
   border-radius: 20px;
   margin-top: 33px;
@@ -14552,7 +14552,7 @@ readers do not read off random characters that represent icons */
   width: 100px;
   height: 117px;
   cursor: pointer;
-  border: 1px dashed #B9B2B2;
+  border: 1px dashed #b9b2b2;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -14604,8 +14604,8 @@ readers do not read off random characters that represent icons */
 
 .resume-date__select .select-main {
   width: 100%;
-  background: #FFFFFF;
-  border: 0.5px solid #BEBEBE;
+  background: #ffffff;
+  border: 0.5px solid #bebebe;
   border-radius: 10px;
   height: 40px;
   cursor: pointer;
@@ -14706,8 +14706,8 @@ readers do not read off random characters that represent icons */
   text-align: left;
   position: relative;
   padding-left: 10px;
-  background: #FFFFFF;
-  border: 0.5px solid #BEBEBE;
+  background: #ffffff;
+  border: 0.5px solid #bebebe;
   border-radius: 10px;
 }
 
@@ -14763,7 +14763,7 @@ readers do not read off random characters that represent icons */
 .resume-bottom {
   margin-top: 26px;
   padding: 20px 43px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 20px;
 }
 @media (max-width: 767px) {
@@ -14791,7 +14791,7 @@ readers do not read off random characters that represent icons */
   color: #232323;
   width: 180px;
   height: 49px;
-  border: 1px solid #57B89B;
+  border: 1px solid #57b89b;
   border-radius: 50px;
   margin-top: 38px;
   background-color: transparent;
@@ -14818,7 +14818,7 @@ readers do not read off random characters that represent icons */
 
 .searchJob {
   width: 100%;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .searchJob-inner {
@@ -14839,7 +14839,7 @@ readers do not read off random characters that represent icons */
 
 .search-filters {
   padding: 20px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 10px;
 }
 .search-filters__title {
@@ -14866,7 +14866,7 @@ readers do not read off random characters that represent icons */
   text-align: left;
   position: relative;
   padding: 8px 10px;
-  border: 1px solid #BEBEBE;
+  border: 1px solid #bebebe;
   border-radius: 4px;
 }
 
@@ -14924,7 +14924,7 @@ readers do not read off random characters that represent icons */
 
 .search-currentFilters {
   padding: 18px 20px;
-  background: #EDEDED;
+  background: #ededed;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -15034,7 +15034,7 @@ readers do not read off random characters that represent icons */
   color: #438AC9;
   width: 258px;
   height: 46px;
-  border: 1px solid #438AC9;
+  border: 1px solid #438ac9;
   border-radius: 50px;
   display: flex;
   align-items: center;
@@ -15048,7 +15048,7 @@ readers do not read off random characters that represent icons */
   display: flex;
   align-items: center;
   margin-top: 17px;
-  border-bottom: 1px solid #B9B2B2;
+  border-bottom: 1px solid #b9b2b2;
   padding-bottom: 8px;
 }
 .search-find__result {
@@ -15057,7 +15057,7 @@ readers do not read off random characters that represent icons */
   font-size: 14px;
   line-height: 19px;
   letter-spacing: -0.02em;
-  color: #918A8A;
+  color: #918a8a;
 }
 .search-find__block {
   margin-left: auto;
@@ -15094,7 +15094,7 @@ readers do not read off random characters that represent icons */
   font-size: 14px;
   line-height: 19px;
   letter-spacing: -0.02em;
-  color: #918A8A;
+  color: #918a8a;
 }
 
 .searchSort {
@@ -15109,7 +15109,7 @@ readers do not read off random characters that represent icons */
 .searchSort .select-main {
   width: 100%;
   background-color: transparent;
-  border: 1px solid #BEBEBE;
+  border: 1px solid #bebebe;
   border-radius: 4px;
   height: 34px;
   padding-left: 8px;
@@ -15121,7 +15121,7 @@ readers do not read off random characters that represent icons */
   font-size: 14px;
   line-height: 19px;
   letter-spacing: -0.02em;
-  color: #918A8A;
+  color: #918a8a;
 }
 
 .searchSort .select-main:after {
@@ -15179,8 +15179,8 @@ readers do not read off random characters that represent icons */
 .job-item {
   width: 100%;
   padding: 20px;
-  background: #FFFFFF;
-  border-left: 5px solid #57B89B;
+  background: #ffffff;
+  border-left: 5px solid #57b89b;
   border-radius: 10px;
   margin-top: 20px;
 }
@@ -15215,7 +15215,7 @@ readers do not read off random characters that represent icons */
   font-size: 14px;
   line-height: 19px;
   letter-spacing: -0.02em;
-  color: #918A8A;
+  color: #918a8a;
 }
 
 .job-top {
@@ -15275,7 +15275,7 @@ readers do not read off random characters that represent icons */
   color: #438AC9;
   min-width: 160px;
   height: 46px;
-  border: 1px solid #438AC9;
+  border: 1px solid #438ac9;
   border-radius: 50px;
   display: flex;
   align-items: center;
@@ -15304,7 +15304,7 @@ readers do not read off random characters that represent icons */
   font-size: 14px;
   line-height: 19px;
   letter-spacing: -0.02em;
-  color: #8D8383;
+  color: #8d8383;
 }
 
 .searchResume-results {
@@ -15312,7 +15312,7 @@ readers do not read off random characters that represent icons */
 }
 
 .resume-item {
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 10px;
   padding: 20px;
   margin-top: 20px;
@@ -15320,7 +15320,7 @@ readers do not read off random characters that represent icons */
 .resume-item hr {
   width: 100%;
   height: 1px;
-  background-color: #F3EFEF;
+  background-color: #f3efef;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -15390,7 +15390,7 @@ readers do not read off random characters that represent icons */
   font-size: 14px;
   line-height: 19px;
   letter-spacing: -0.02em;
-  color: #918A8A;
+  color: #918a8a;
   margin-top: 5px;
 }
 .resume-top__block-money {
@@ -15437,7 +15437,7 @@ readers do not read off random characters that represent icons */
   font-size: 14px;
   line-height: 19px;
   letter-spacing: -0.02em;
-  color: #57B89B;
+  color: #57b89b;
   margin-right: 10px;
 }
 .resume-warning__img {
@@ -15450,7 +15450,7 @@ readers do not read off random characters that represent icons */
   font-size: 14px;
   line-height: 19px;
   letter-spacing: -0.02em;
-  color: #918A8A;
+  color: #918a8a;
   margin-bottom: 12px;
 }
 .resume-content__block span {
@@ -15463,4 +15463,317 @@ readers do not read off random characters that represent icons */
 }
 .resume-content__img {
   margin-right: 10px;
+}
+
+.catalog {
+  width: 100%;
+  background-color: #fafafa;
+}
+
+.catalog-inner {
+  padding-top: 33px;
+  padding-bottom: 82px;
+}
+
+.catalog-row {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.catalog-left {
+  width: 100%;
+  margin-right: 40px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+.catalog-left__title {
+  display: flex;
+}
+.catalog-left__title span {
+  margin-left: auto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #d32f2f;
+}
+.catalog-left__text {
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  color: #438AC9;
+}
+.catalog-left__name {
+  display: block;
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.02em;
+  color: #438AC9;
+}
+.catalog-left__description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+.catalog-left hr {
+  width: 100%;
+  height: 1px;
+  background-color: #bebebe;
+}
+.catalog-left__description + hr {
+  margin-bottom: 17px;
+}
+.catalog-left__all {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  color: #BEBEBE;
+  margin-top: 5px;
+  display: block;
+  position: relative;
+}
+.catalog-left .catalog-left__all-img {
+  margin-left: 10px;
+  transform: rotate(-90deg);
+}
+.catalog-left__subtitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.02em;
+  color: #242424;
+  margin-bottom: 10px;
+}
+.catalog-left__works {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 17px;
+  margin-bottom: 28px;
+}
+.catalog-left__work {
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  color: #242424;
+}
+.catalog-left__work:first-child, .catalog-left__work:nth-child(3) {
+  margin-right: 10px;
+}
+
+.catalog-left__row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 11px;
+}
+.catalog-left__row .catalog-row__img {
+  margin-right: 10px;
+}
+.catalog-left__row .catalog-row__name {
+  margin-right: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  color: #242424;
+}
+.catalog-left__row .catalog-row__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  color: #242424;
+}
+
+.catalog-left__row + .catalog-left__subtitle {
+  margin-top: 28px;
+}
+
+.catalog-block {
+  margin-bottom: 28px;
+}
+.catalog-block__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.02em;
+  color: #242424;
+}
+.catalog-block__text {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  color: #242424;
+}
+.catalog-block__text2 {
+  position: relative;
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  color: #242424;
+  padding-left: 10px;
+}
+.catalog-block__text2::before {
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: 0;
+  width: 3px;
+  height: 3px;
+  background-color: #242424;
+  border-radius: 50%;
+}
+
+.catalog-left__map {
+  margin-bottom: 28px;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 227px;
+  width: 438px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 227px;
+  width: 438px;
+}
+
+.catalog-left__subtitle + hr {
+  margin-bottom: 17px;
+}
+
+.catalog-left__links {
+  margin-top: 10px;
+  display: flex;
+}
+
+.catalog-left__links a {
+  display: block;
+}
+
+.catalog-left__links a:first-child {
+  margin-right: 10px;
+}
+
+.catalog-right {
+  min-width: 260px;
+}
+.catalog-right__content {
+  padding: 30px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.catalog-right__row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.catalog-right__row-img {
+  margin-right: 12px;
+}
+.catalog-right__row-text {
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  color: #242424;
+}
+.catalog-right__date {
+  display: block;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.02em;
+  color: #57B89B;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.catalog-right__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  color: #B9B2B2;
+}
+
+.catalog-right__row {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #BEBEBE;
+}
+
+.catalog-right__row:nth-child(1),
+.catalog-right__row:nth-child(2) {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.catalog-top {
+  padding: 30px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.catalog-top__button {
+  width: 199px;
+  height: 48px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #438AC9;
+  background: #F5F4F4;
+  border: 1px solid #BEBEBE;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.catalog-top__button.active {
+  color: #fff;
+  background: #438AC9;
+}
+.catalog-top__button:last-child {
+  margin-bottom: 0;
 }
