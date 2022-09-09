@@ -15474,11 +15474,32 @@ readers do not read off random characters that represent icons */
   padding-top: 33px;
   padding-bottom: 82px;
 }
+@media (max-width: 991px) {
+  .catalog-inner {
+    padding-bottom: 62px;
+  }
+}
+@media (max-width: 767px) {
+  .catalog-inner {
+    padding-bottom: 42px;
+  }
+}
+@media (max-width: 991px) {
+  .catalog-inner {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}
 
 .catalog-row {
   width: 100%;
   display: flex;
   align-items: flex-start;
+}
+@media (max-width: 767px) {
+  .catalog-row {
+    flex-direction: column-reverse;
+  }
 }
 
 .catalog-left {
@@ -15488,8 +15509,35 @@ readers do not read off random characters that represent icons */
   background: #ffffff;
   border-radius: 20px;
 }
+@media (max-width: 991px) {
+  .catalog-left {
+    margin-right: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .catalog-left {
+    margin-right: 0;
+    padding: 15px;
+  }
+}
+@media (max-width: 575px) {
+  .catalog-left {
+    padding: 10px;
+  }
+}
 .catalog-left__title {
   display: flex;
+}
+@media (max-width: 767px) {
+  .catalog-left__title {
+    font-size: 20px;
+  }
+}
+@media (max-width: 575px) {
+  .catalog-left__title {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .catalog-left__title span {
   margin-left: auto;
@@ -15498,6 +15546,18 @@ readers do not read off random characters that represent icons */
   font-size: 16px;
   line-height: 22px;
   color: #d32f2f;
+}
+@media (max-width: 820px) {
+  .catalog-left__title span {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 575px) {
+  .catalog-left__title span {
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
 .catalog-left__text {
   display: block;
@@ -15517,6 +15577,16 @@ readers do not read off random characters that represent icons */
   line-height: 27px;
   letter-spacing: -0.02em;
   color: #438AC9;
+}
+@media (max-width: 767px) {
+  .catalog-left__name {
+    font-size: 18px;
+  }
+}
+@media (max-width: 575px) {
+  .catalog-left__name {
+    font-size: 16px;
+  }
 }
 .catalog-left__description {
   font-style: normal;
@@ -15567,6 +15637,11 @@ readers do not read off random characters that represent icons */
   margin-top: 17px;
   margin-bottom: 28px;
 }
+@media (max-width: 575px) {
+  .catalog-left__works {
+    width: 100%;
+  }
+}
 .catalog-left__work {
   display: block;
   font-style: normal;
@@ -15586,8 +15661,18 @@ readers do not read off random characters that represent icons */
   align-items: center;
   margin-top: 11px;
 }
+@media (max-width: 767px) {
+  .catalog-left__row {
+    flex-direction: column;
+  }
+}
 .catalog-left__row .catalog-row__img {
   margin-right: 10px;
+}
+@media (max-width: 767px) {
+  .catalog-left__row .catalog-row__img {
+    margin-right: 0;
+  }
 }
 .catalog-left__row .catalog-row__name {
   margin-right: 10px;
@@ -15597,6 +15682,11 @@ readers do not read off random characters that represent icons */
   line-height: 19px;
   letter-spacing: -0.02em;
   color: #242424;
+}
+@media (max-width: 767px) {
+  .catalog-left__row .catalog-row__name {
+    margin-right: 0;
+  }
 }
 .catalog-left__row .catalog-row__text {
   font-style: normal;
@@ -15622,6 +15712,11 @@ readers do not read off random characters that represent icons */
   letter-spacing: -0.02em;
   color: #242424;
 }
+@media (max-width: 575px) {
+  .catalog-block__title {
+    font-size: 18px;
+  }
+}
 .catalog-block__text {
   margin-top: 10px;
   font-style: normal;
@@ -15630,6 +15725,11 @@ readers do not read off random characters that represent icons */
   line-height: 22px;
   letter-spacing: -0.02em;
   color: #242424;
+}
+@media (max-width: 575px) {
+  .catalog-block__text {
+    font-size: 14px;
+  }
 }
 .catalog-block__text2 {
   position: relative;
@@ -15641,6 +15741,11 @@ readers do not read off random characters that represent icons */
   letter-spacing: -0.02em;
   color: #242424;
   padding-left: 10px;
+}
+@media (max-width: 575px) {
+  .catalog-block__text2 {
+    font-size: 14px;
+  }
 }
 .catalog-block__text2::before {
   content: "";
@@ -15663,12 +15768,23 @@ readers do not read off random characters that represent icons */
   height: 227px;
   width: 438px;
 }
+@media (max-width: 575px) {
+  .mapouter {
+    width: 100%;
+  }
+}
 
 .gmap_canvas {
   overflow: hidden;
-  background: none !important;
+  background: none;
   height: 227px;
   width: 438px;
+}
+@media (max-width: 575px) {
+  .gmap_canvas {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .catalog-left__subtitle + hr {
@@ -15691,10 +15807,31 @@ readers do not read off random characters that represent icons */
 .catalog-right {
   min-width: 260px;
 }
+@media (max-width: 767px) {
+  .catalog-right {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 380px) {
+  .catalog-right {
+    width: 100%;
+  }
+}
 .catalog-right__content {
   padding: 30px;
   background: #FFFFFF;
   border-radius: 10px;
+}
+@media (max-width: 991px) {
+  .catalog-right__content {
+    padding: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .catalog-right__content {
+    padding: 15px;
+  }
 }
 .catalog-right__row {
   display: flex;
@@ -15712,6 +15849,11 @@ readers do not read off random characters that represent icons */
   line-height: 22px;
   letter-spacing: -0.02em;
   color: #242424;
+}
+@media (max-width: 767px) {
+  .catalog-right__row-text {
+    font-size: 14px;
+  }
 }
 .catalog-right__date {
   display: block;
@@ -15731,6 +15873,11 @@ readers do not read off random characters that represent icons */
   line-height: 22px;
   letter-spacing: -0.02em;
   color: #B9B2B2;
+}
+@media (max-width: 767px) {
+  .catalog-right__text {
+    font-size: 14px;
+  }
 }
 
 .catalog-right__row {
@@ -15754,6 +15901,17 @@ readers do not read off random characters that represent icons */
   align-items: center;
   margin-bottom: 20px;
 }
+@media (max-width: 991px) {
+  .catalog-top {
+    padding: 15px;
+  }
+}
+@media (max-width: 575px) {
+  .catalog-top {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+}
 .catalog-top__button {
   width: 199px;
   height: 48px;
@@ -15770,6 +15928,12 @@ readers do not read off random characters that represent icons */
   cursor: pointer;
   margin-bottom: 10px;
 }
+@media (max-width: 575px) {
+  .catalog-top__button {
+    height: 35px;
+    font-size: 14px;
+  }
+}
 .catalog-top__button.active {
   color: #fff;
   background: #438AC9;
@@ -15783,6 +15947,11 @@ readers do not read off random characters that represent icons */
   display: flex;
   align-items: flex-start;
   margin-bottom: 28px;
+}
+@media (max-width: 575px) {
+  .catalogResume-top {
+    flex-direction: column-reverse;
+  }
 }
 .catalogResume-top__block-title {
   font-style: normal;
@@ -15828,12 +15997,30 @@ readers do not read off random characters that represent icons */
   max-width: 140px;
   max-height: 160px;
 }
+@media (max-width: 991px) {
+  .catalogResume-top__img {
+    padding-left: 10px;
+  }
+}
+@media (max-width: 575px) {
+  .catalogResume-top__img {
+    margin: 0 auto;
+    margin-bottom: 15px;
+    padding-left: 0;
+  }
+}
 
 .catalogResume-box {
   margin-top: 20px;
 }
 .catalogResume-box .catalogResume-block__right-text {
   margin-top: 10px;
+}
+@media (max-width: 575px) {
+  .catalogResume-box .catalogResume-block__right-text {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .catalogResume-box .catalogResume-block__right-text:first-child {
   margin-top: 0px;
@@ -15846,6 +16033,17 @@ readers do not read off random characters that represent icons */
   border: 1px solid #BEBEBE;
   border-radius: 10px;
 }
+@media (max-width: 767px) {
+  .catalogResume-block {
+    padding: 15px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 575px) {
+  .catalogResume-block {
+    margin-top: 10px;
+  }
+}
 .catalogResume-block__title {
   font-style: normal;
   font-weight: 700;
@@ -15854,14 +16052,36 @@ readers do not read off random characters that represent icons */
   letter-spacing: -0.02em;
   color: #242424;
 }
+@media (max-width: 575px) {
+  .catalogResume-block__title {
+    font-size: 16px;
+  }
+}
 .catalogResume-block__row {
   width: 100%;
   display: flex;
   align-items: flex-start;
   margin-top: 20px;
 }
+@media (max-width: 575px) {
+  .catalogResume-block__row {
+    margin-top: 10px;
+    flex-direction: column;
+  }
+}
 .catalogResume-block__left {
   min-width: 170px;
+}
+@media (max-width: 767px) {
+  .catalogResume-block__left {
+    min-width: 75px;
+  }
+}
+@media (max-width: 575px) {
+  .catalogResume-block__left {
+    min-width: 100%;
+    margin-bottom: 7px;
+  }
 }
 .catalogResume-block__left-text {
   font-style: normal;
