@@ -14819,11 +14819,29 @@ readers do not read off random characters that represent icons */
 .searchJob {
   width: 100%;
   background-color: #fafafa;
+  position: relative;
 }
 
 .searchJob-inner {
   padding-top: 42px;
   padding-bottom: 114px;
+}
+@media (max-width: 991px) {
+  .searchJob-inner {
+    padding-bottom: 80px;
+  }
+}
+@media (max-width: 767px) {
+  .searchJob-inner {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+@media (max-width: 575px) {
+  .searchJob-inner {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
 }
 
 .searchJob-row {
@@ -14835,6 +14853,18 @@ readers do not read off random characters that represent icons */
 
 .search-left {
   min-width: 260px;
+  transition: all 250ms ease;
+}
+@media (max-width: 991px) {
+  .search-left {
+    position: absolute;
+    top: 20px;
+    left: -100%;
+  }
+}
+
+.search-left.active {
+  left: 20px;
 }
 
 .search-filters {
@@ -14851,6 +14881,45 @@ readers do not read off random characters that represent icons */
   letter-spacing: -0.02em;
   color: black;
   margin-bottom: 13px;
+}
+
+.search-filters .search-sort,
+.search-filters .search-find__button {
+  display: none;
+}
+@media (max-width: 991px) {
+  .search-filters .search-sort,
+.search-filters .search-find__button {
+    display: flex;
+  }
+}
+
+.search-filters .search-sort {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.search-filters .search-sort .searchSort {
+  margin-left: 0;
+  width: 100%;
+  margin-top: 7px;
+}
+
+.search-filters .search-sort .searchSort .select-wrapper {
+  width: 100%;
+}
+
+.fa-arrow-down-wide-short {
+  display: none;
+  color: #438AC9;
+}
+@media (max-width: 991px) {
+  .fa-arrow-down-wide-short {
+    display: inline;
+  }
 }
 
 .searchSelect .select-wrapper {
@@ -15006,6 +15075,16 @@ readers do not read off random characters that represent icons */
   width: 100%;
   margin-left: 40px;
 }
+@media (max-width: 1065px) {
+  .search-right {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 991px) {
+  .search-right {
+    margin-left: 0;
+  }
+}
 
 .search-description__title {
   font-style: normal;
@@ -15014,6 +15093,12 @@ readers do not read off random characters that represent icons */
   line-height: 39px;
   letter-spacing: -0.02em;
   color: #242424;
+}
+@media (max-width: 575px) {
+  .search-description__title {
+    font-size: 20px;
+    line-height: 28px;
+  }
 }
 .search-description__text {
   font-style: normal;
@@ -15041,6 +15126,13 @@ readers do not read off random characters that represent icons */
   justify-content: center;
   margin-top: 15px;
   background-color: transparent;
+}
+@media (max-width: 424px) {
+  .search-description .search-button {
+    width: 100%;
+    height: 35px;
+    font-size: 14px;
+  }
 }
 
 .search-find {
@@ -15082,11 +15174,33 @@ readers do not read off random characters that represent icons */
   margin-left: 30px;
   cursor: pointer;
 }
+@media (max-width: 1065px) {
+  .search-find__link {
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 991px) {
+  .search-find .search-sort {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .search-find__block .search-find__button {
+    display: none;
+  }
+}
 
 .search-sort {
   margin-left: 26px;
   display: flex;
   align-items: center;
+}
+@media (max-width: 1065px) {
+  .search-sort {
+    margin-left: 15px;
+  }
 }
 .search-sort__text {
   font-style: normal;
@@ -15104,6 +15218,11 @@ readers do not read off random characters that represent icons */
 .searchSort .select-wrapper {
   width: 200px;
   position: relative;
+}
+@media (max-width: 1065px) {
+  .searchSort .select-wrapper {
+    width: 170px;
+  }
 }
 
 .searchSort .select-main {
@@ -15184,6 +15303,16 @@ readers do not read off random characters that represent icons */
   border-radius: 10px;
   margin-top: 20px;
 }
+@media (max-width: 767px) {
+  .job-item {
+    padding: 15px;
+  }
+}
+@media (max-width: 575px) {
+  .job-item {
+    padding: 10px;
+  }
+}
 
 .job-item:first-child {
   margin-top: 0px;
@@ -15223,6 +15352,12 @@ readers do not read off random characters that represent icons */
   display: flex;
   align-items: center;
 }
+@media (max-width: 575px) {
+  .job-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
 .job-top__block {
   display: flex;
   align-items: center;
@@ -15231,6 +15366,14 @@ readers do not read off random characters that represent icons */
   margin-right: 10px;
   padding-right: 10px;
   border-right: 1px solid #585858;
+}
+@media (max-width: 575px) {
+  .job-top__block:first-child {
+    border: none;
+    padding-right: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
 }
 .job-top__img {
   margin-right: 10px;
@@ -15248,6 +15391,11 @@ readers do not read off random characters that represent icons */
   margin-top: 12px;
   display: flex;
 }
+@media (max-width: 575px) {
+  .job-middle {
+    flex-direction: column;
+  }
+}
 .job-middle__text {
   font-style: normal;
   font-weight: 400;
@@ -15259,11 +15407,22 @@ readers do not read off random characters that represent icons */
 .job-middle__text:first-child {
   margin-right: 23px;
 }
+@media (max-width: 575px) {
+  .job-middle__text:first-child {
+    margin-right: 0;
+    font-weight: bold;
+  }
+}
 
 .job-bottom {
   display: flex;
   align-items: center;
   margin-top: 10px;
+}
+@media (max-width: 575px) {
+  .job-bottom {
+    flex-direction: column-reverse;
+  }
 }
 .job-bottom__button {
   font-style: normal;
@@ -15282,12 +15441,25 @@ readers do not read off random characters that represent icons */
   justify-content: center;
   background-color: transparent;
 }
+@media (max-width: 424px) {
+  .job-bottom__button {
+    width: 100%;
+    height: 35px;
+    font-size: 14px;
+  }
+}
 .job-bottom__block {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-left: 40px;
+}
+@media (max-width: 575px) {
+  .job-bottom__block {
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
 }
 .job-bottom__link {
   font-style: normal;
@@ -15316,6 +15488,16 @@ readers do not read off random characters that represent icons */
   border-radius: 10px;
   padding: 20px;
   margin-top: 20px;
+}
+@media (max-width: 767px) {
+  .resume-item {
+    padding: 15px;
+  }
+}
+@media (max-width: 575px) {
+  .resume-item {
+    padding: 10px;
+  }
 }
 .resume-item hr {
   width: 100%;
@@ -15347,6 +15529,11 @@ readers do not read off random characters that represent icons */
   margin-top: 10px;
   margin-bottom: 10px;
 }
+@media (max-width: 575px) {
+  .resume-item__text2 {
+    padding-bottom: 10px;
+  }
+}
 
 .resume-item:first-child {
   margin-top: 0;
@@ -15358,12 +15545,28 @@ readers do not read off random characters that represent icons */
   align-items: flex-start;
   justify-content: space-between;
 }
+@media (max-width: 575px) {
+  .resume-top {
+    flex-direction: column-reverse;
+  }
+}
 .resume-top__block {
   width: 444px;
+}
+@media (max-width: 575px) {
+  .resume-top__block {
+    width: 100%;
+  }
 }
 .resume-top__box {
   display: flex;
   align-items: center;
+}
+@media (max-width: 575px) {
+  .resume-top__box {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
 }
 .resume-top__box-text {
   font-style: normal;
@@ -15423,6 +15626,15 @@ readers do not read off random characters that represent icons */
   letter-spacing: -0.02em;
   color: #474545;
 }
+.resume-top__img {
+  margin-left: 10px;
+}
+@media (max-width: 575px) {
+  .resume-top__img {
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
+}
 
 .resume-warning {
   background: rgba(87, 184, 155, 0.2);
@@ -15443,8 +15655,15 @@ readers do not read off random characters that represent icons */
 .resume-warning__img {
   margin-right: 4px;
 }
+@media (max-width: 575px) {
+  .resume-warning {
+    margin-right: 0;
+    margin-top: 7px;
+  }
+}
 
 .resume-content__block {
+  display: flex;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -15460,6 +15679,7 @@ readers do not read off random characters that represent icons */
   line-height: 19px;
   letter-spacing: -0.02em;
   color: #242424;
+  margin-left: 5px;
 }
 .resume-content__img {
   margin-right: 10px;
